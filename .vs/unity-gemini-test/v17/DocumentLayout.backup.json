@@ -1,0 +1,278 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\anno\\unity-gemini-test\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\anno\\unity-gemini-test\\Assets\\GeminiManager\\Scripts\\VolumeLipSync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\GeminiManager\\Scripts\\VolumeLipSync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\anno\\unity-gemini-test\\Assets\\GeminiManager\\Scripts\\UnityAndGeminiV3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\GeminiManager\\Scripts\\UnityAndGeminiV3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\anno\\unity-gemini-test\\Assets\\GeminiManager\\Scripts\\RealWorldContextProvider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\GeminiManager\\Scripts\\RealWorldContextProvider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\anno\\unity-gemini-test\\Assets\\GeminiManager\\Scripts\\ObjectSpawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\GeminiManager\\Scripts\\ObjectSpawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\anno\\unity-gemini-test\\Assets\\GeminiManager\\Scripts\\NotifyAnimationEnd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\GeminiManager\\Scripts\\NotifyAnimationEnd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\anno\\unity-gemini-test\\Assets\\GeminiManager\\Scripts\\IdleAnimationRandomizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\GeminiManager\\Scripts\\IdleAnimationRandomizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\anno\\unity-gemini-test\\Assets\\GeminiManager\\Scripts\\AutoBlink.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\GeminiManager\\Scripts\\AutoBlink.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\anno\\unity-gemini-test\\Assets\\GeminiManager\\Scripts\\VoicevoxBridge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\GeminiManager\\Scripts\\VoicevoxBridge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\anno\\unity-gemini-test\\Assets\\GeminiManager\\Scripts\\SimpleHeadLock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\GeminiManager\\Scripts\\SimpleHeadLock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\anno\\unity-gemini-test\\Assets\\GeminiManager\\Scripts\\AvatarEmotioncomtroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\GeminiManager\\Scripts\\AvatarEmotioncomtroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\anno\\unity-gemini-test\\Assets\\GeminiManager\\Scripts\\TouchReactionHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\GeminiManager\\Scripts\\TouchReactionHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\anno\\unity-gemini-test\\Assets\\GeminiManager\\Scripts\\BodyPartTag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\GeminiManager\\Scripts\\BodyPartTag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\anno\\unity-gemini-test\\Assets\\GeminiManager\\Scripts\\RaycastInputManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\GeminiManager\\Scripts\\RaycastInputManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\anno\\unity-gemini-test\\Assets\\GeminiManager\\Scripts\\SpeechToManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\GeminiManager\\Scripts\\SpeechToManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\anno\\unity-gemini-test\\Assets\\GeminiManager\\Scripts\\CameraOrbit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\GeminiManager\\Scripts\\CameraOrbit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\anno\\unity-gemini-test\\Assets\\GeminiManager\\Scripts\\AvateEmotioncomtroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\GeminiManager\\Scripts\\AvateEmotioncomtroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UnityAndGeminiV3.cs",
+              "DocumentMoniker": "C:\\Users\\anno\\unity-gemini-test\\Assets\\GeminiManager\\Scripts\\UnityAndGeminiV3.cs",
+              "RelativeDocumentMoniker": "Assets\\GeminiManager\\Scripts\\UnityAndGeminiV3.cs",
+              "ToolTip": "C:\\Users\\anno\\unity-gemini-test\\Assets\\GeminiManager\\Scripts\\UnityAndGeminiV3.cs",
+              "RelativeToolTip": "Assets\\GeminiManager\\Scripts\\UnityAndGeminiV3.cs",
+              "ViewState": "AgIAAFoCAAAAAAAAAAAgwGsCAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T02:18:56.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ObjectSpawner.cs",
+              "DocumentMoniker": "C:\\Users\\anno\\unity-gemini-test\\Assets\\GeminiManager\\Scripts\\ObjectSpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\GeminiManager\\Scripts\\ObjectSpawner.cs",
+              "ToolTip": "C:\\Users\\anno\\unity-gemini-test\\Assets\\GeminiManager\\Scripts\\ObjectSpawner.cs",
+              "RelativeToolTip": "Assets\\GeminiManager\\Scripts\\ObjectSpawner.cs",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAgwJQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T02:26:17.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RealWorldContextProvider.cs",
+              "DocumentMoniker": "C:\\Users\\anno\\unity-gemini-test\\Assets\\GeminiManager\\Scripts\\RealWorldContextProvider.cs",
+              "RelativeDocumentMoniker": "Assets\\GeminiManager\\Scripts\\RealWorldContextProvider.cs",
+              "ToolTip": "C:\\Users\\anno\\unity-gemini-test\\Assets\\GeminiManager\\Scripts\\RealWorldContextProvider.cs",
+              "RelativeToolTip": "Assets\\GeminiManager\\Scripts\\RealWorldContextProvider.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAgwIsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T02:28:31.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AutoBlink.cs",
+              "DocumentMoniker": "C:\\Users\\anno\\unity-gemini-test\\Assets\\GeminiManager\\Scripts\\AutoBlink.cs",
+              "RelativeDocumentMoniker": "Assets\\GeminiManager\\Scripts\\AutoBlink.cs",
+              "ToolTip": "C:\\Users\\anno\\unity-gemini-test\\Assets\\GeminiManager\\Scripts\\AutoBlink.cs",
+              "RelativeToolTip": "Assets\\GeminiManager\\Scripts\\AutoBlink.cs",
+              "ViewState": "AgIAAKwAAAAAAAAAAAAgwNIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T02:19:11.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VolumeLipSync.cs",
+              "DocumentMoniker": "C:\\Users\\anno\\unity-gemini-test\\Assets\\GeminiManager\\Scripts\\VolumeLipSync.cs",
+              "RelativeDocumentMoniker": "Assets\\GeminiManager\\Scripts\\VolumeLipSync.cs",
+              "ToolTip": "C:\\Users\\anno\\unity-gemini-test\\Assets\\GeminiManager\\Scripts\\VolumeLipSync.cs",
+              "RelativeToolTip": "Assets\\GeminiManager\\Scripts\\VolumeLipSync.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAgwI8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T02:33:35.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NotifyAnimationEnd.cs",
+              "DocumentMoniker": "C:\\Users\\anno\\unity-gemini-test\\Assets\\GeminiManager\\Scripts\\NotifyAnimationEnd.cs",
+              "RelativeDocumentMoniker": "Assets\\GeminiManager\\Scripts\\NotifyAnimationEnd.cs",
+              "ToolTip": "C:\\Users\\anno\\unity-gemini-test\\Assets\\GeminiManager\\Scripts\\NotifyAnimationEnd.cs",
+              "RelativeToolTip": "Assets\\GeminiManager\\Scripts\\NotifyAnimationEnd.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T02:25:05.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IdleAnimationRandomizer.cs",
+              "DocumentMoniker": "C:\\Users\\anno\\unity-gemini-test\\Assets\\GeminiManager\\Scripts\\IdleAnimationRandomizer.cs",
+              "RelativeDocumentMoniker": "Assets\\GeminiManager\\Scripts\\IdleAnimationRandomizer.cs",
+              "ToolTip": "C:\\Users\\anno\\unity-gemini-test\\Assets\\GeminiManager\\Scripts\\IdleAnimationRandomizer.cs",
+              "RelativeToolTip": "Assets\\GeminiManager\\Scripts\\IdleAnimationRandomizer.cs",
+              "ViewState": "AgIAAH8AAAAAAAAAAAAgwKUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T02:24:06.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "VoicevoxBridge.cs",
+              "DocumentMoniker": "C:\\Users\\anno\\unity-gemini-test\\Assets\\GeminiManager\\Scripts\\VoicevoxBridge.cs",
+              "RelativeDocumentMoniker": "Assets\\GeminiManager\\Scripts\\VoicevoxBridge.cs",
+              "ToolTip": "C:\\Users\\anno\\unity-gemini-test\\Assets\\GeminiManager\\Scripts\\VoicevoxBridge.cs",
+              "RelativeToolTip": "Assets\\GeminiManager\\Scripts\\VoicevoxBridge.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAgwGEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T02:33:01.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SimpleHeadLock.cs",
+              "DocumentMoniker": "C:\\Users\\anno\\unity-gemini-test\\Assets\\GeminiManager\\Scripts\\SimpleHeadLock.cs",
+              "RelativeDocumentMoniker": "Assets\\GeminiManager\\Scripts\\SimpleHeadLock.cs",
+              "ToolTip": "C:\\Users\\anno\\unity-gemini-test\\Assets\\GeminiManager\\Scripts\\SimpleHeadLock.cs",
+              "RelativeToolTip": "Assets\\GeminiManager\\Scripts\\SimpleHeadLock.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAgwFcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T02:29:43.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AvatarEmotioncomtroller.cs",
+              "DocumentMoniker": "C:\\Users\\anno\\unity-gemini-test\\Assets\\GeminiManager\\Scripts\\AvatarEmotioncomtroller.cs",
+              "RelativeDocumentMoniker": "Assets\\GeminiManager\\Scripts\\AvatarEmotioncomtroller.cs",
+              "ToolTip": "C:\\Users\\anno\\unity-gemini-test\\Assets\\GeminiManager\\Scripts\\AvatarEmotioncomtroller.cs",
+              "RelativeToolTip": "Assets\\GeminiManager\\Scripts\\AvatarEmotioncomtroller.cs",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAgwJIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T05:48:54.906Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TouchReactionHandler.cs",
+              "DocumentMoniker": "C:\\Users\\anno\\unity-gemini-test\\Assets\\GeminiManager\\Scripts\\TouchReactionHandler.cs",
+              "RelativeDocumentMoniker": "Assets\\GeminiManager\\Scripts\\TouchReactionHandler.cs",
+              "ToolTip": "C:\\Users\\anno\\unity-gemini-test\\Assets\\GeminiManager\\Scripts\\TouchReactionHandler.cs",
+              "RelativeToolTip": "Assets\\GeminiManager\\Scripts\\TouchReactionHandler.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAgwEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T02:31:34.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BodyPartTag.cs",
+              "DocumentMoniker": "C:\\Users\\anno\\unity-gemini-test\\Assets\\GeminiManager\\Scripts\\BodyPartTag.cs",
+              "RelativeDocumentMoniker": "Assets\\GeminiManager\\Scripts\\BodyPartTag.cs",
+              "ToolTip": "C:\\Users\\anno\\unity-gemini-test\\Assets\\GeminiManager\\Scripts\\BodyPartTag.cs",
+              "RelativeToolTip": "Assets\\GeminiManager\\Scripts\\BodyPartTag.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T02:22:31.417Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RaycastInputManager.cs",
+              "DocumentMoniker": "C:\\Users\\anno\\unity-gemini-test\\Assets\\GeminiManager\\Scripts\\RaycastInputManager.cs",
+              "RelativeDocumentMoniker": "Assets\\GeminiManager\\Scripts\\RaycastInputManager.cs",
+              "ToolTip": "C:\\Users\\anno\\unity-gemini-test\\Assets\\GeminiManager\\Scripts\\RaycastInputManager.cs",
+              "RelativeToolTip": "Assets\\GeminiManager\\Scripts\\RaycastInputManager.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAgwEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T02:27:25.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SpeechToManager.cs",
+              "DocumentMoniker": "C:\\Users\\anno\\unity-gemini-test\\Assets\\GeminiManager\\Scripts\\SpeechToManager.cs",
+              "RelativeDocumentMoniker": "Assets\\GeminiManager\\Scripts\\SpeechToManager.cs",
+              "ToolTip": "C:\\Users\\anno\\unity-gemini-test\\Assets\\GeminiManager\\Scripts\\SpeechToManager.cs",
+              "RelativeToolTip": "Assets\\GeminiManager\\Scripts\\SpeechToManager.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAgwGIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T02:30:21.829Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CameraOrbit.cs",
+              "DocumentMoniker": "C:\\Users\\anno\\unity-gemini-test\\Assets\\GeminiManager\\Scripts\\CameraOrbit.cs",
+              "RelativeDocumentMoniker": "Assets\\GeminiManager\\Scripts\\CameraOrbit.cs",
+              "ToolTip": "C:\\Users\\anno\\unity-gemini-test\\Assets\\GeminiManager\\Scripts\\CameraOrbit.cs",
+              "RelativeToolTip": "Assets\\GeminiManager\\Scripts\\CameraOrbit.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAgwHEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T02:23:06.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AvateEmotioncomtroller.cs",
+              "DocumentMoniker": "C:\\Users\\anno\\unity-gemini-test\\Assets\\GeminiManager\\Scripts\\AvateEmotioncomtroller.cs",
+              "RelativeDocumentMoniker": "Assets\\GeminiManager\\Scripts\\AvateEmotioncomtroller.cs",
+              "ToolTip": "C:\\Users\\anno\\unity-gemini-test\\Assets\\GeminiManager\\Scripts\\AvateEmotioncomtroller.cs",
+              "RelativeToolTip": "Assets\\GeminiManager\\Scripts\\AvateEmotioncomtroller.cs",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAgwJIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T02:20:00.942Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
