@@ -92,7 +92,7 @@ public class CameraOrbit : MonoBehaviour
         float scroll = Input.GetAxis("Mouse ScrollWheel");
         distance -= scroll * zoomSpeed;
 
-        // 【重要】ここで最小距離(minDistance)を下回らないように制限します
+        // ここで最小距離(minDistance)を下回らないように制限
         distance = Mathf.Clamp(distance, minDistance, maxDistance);
 
         // 3. 滑らか移動

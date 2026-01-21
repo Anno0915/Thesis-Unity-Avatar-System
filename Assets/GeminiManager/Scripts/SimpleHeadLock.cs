@@ -49,7 +49,6 @@ public class SimpleHeadLook : MonoBehaviour
             }
         }
 
-        // 【修正箇所】初期位置の計算ロジックを変更
         if (target != null)
         {
             // ターゲットがあるなら、最初からその位置を初期値にする

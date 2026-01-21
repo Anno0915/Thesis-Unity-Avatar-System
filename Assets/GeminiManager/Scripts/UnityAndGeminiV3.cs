@@ -10,7 +10,7 @@ using UnityEngine.UI;
 using System.Diagnostics;
 using Debug = UnityEngine.Debug;
 
-// ▼▼▼ JSONデータ構造の定義 (APIとの通信用) ▼▼▼
+// JSONデータ構造の定義 (APIとの通信用) 
 
 [System.Serializable]
 public class UnityAndGeminiKey
@@ -64,19 +64,17 @@ public class ChatHistoryWrapper
 {
     public TextContent[] history;
 }
-// ▲▲▲ クラス定義ここまで ▲▲▲
 
 
 public class UnityAndGeminiV3 : MonoBehaviour
 {
-    // ▼▼▼ イベント定義 ▼▼▼
     public static event System.Action<string> OnEmotionReceived;
     public static event System.Action OnChatStarted;
     public static event System.Action OnChatFinished;
 
     public enum GeminiModelType
     {
-        // 動作確認済みとおっしゃっていたモデル
+        // 動作確認済み
         Gemini_2_5_Flash,//正常動作○
         Gemini_2_5_Flash_Lite,//正常動作○
         Gemini_Robotics_ER_1_5,//正常動作○
@@ -93,7 +91,7 @@ public class UnityAndGeminiV3 : MonoBehaviour
         Gemma_3_12b,
         Gemma_3_27b,
 
-        // ★救済措置: 自分で名前を手入力するモード
+        // 自分で名前を手入力するモード
         Custom
     }
 
@@ -173,7 +171,7 @@ public class UnityAndGeminiV3 : MonoBehaviour
     public int maxHistoryTurns = 10;
     private string saveFileName = "chat_history.json";
 
-    // ▼▼▼ 音声入力用のUI設定 (ここが重要です) ▼▼▼
+    // 音声入力用のUI設定
     [Header("入力モード切替")]
     public GameObject textInputGroup; // InputField等の親
     public GameObject voiceInputGroup; // マイクボタン等の親
@@ -192,10 +190,7 @@ public class UnityAndGeminiV3 : MonoBehaviour
 
     private bool isProcessing = false;
     private TextContent[] chatHistory;
-
-    // ▼▼▼ 修正箇所: この変数が抜けていました ▼▼▼
     private bool isVoiceMode = false;
-    // ▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲
 
     void Start()
     {
@@ -212,7 +207,7 @@ public class UnityAndGeminiV3 : MonoBehaviour
         // 起動時に履歴をロード
         LoadHistory();
 
-        // ▼▼▼ 音声認識イベントの登録 ▼▼▼
+        // 音声認識イベントの登録 
         if (speechToTextManager != null)
         {
             speechToTextManager.OnSpeechRecognized += HandleSpeechInput;
@@ -241,7 +236,7 @@ public class UnityAndGeminiV3 : MonoBehaviour
         OnChatFinished?.Invoke();
     }
 
-    // ▼▼▼ 2. モデル名を取得するヘルパー関数を更新 ▼▼▼
+    // 2. モデル名を取得するヘルパー関数を更新
     private string GetModelName(GeminiModelType type)
     {
         switch (type)
@@ -272,12 +267,12 @@ public class UnityAndGeminiV3 : MonoBehaviour
         }
     }
 
-    // ▼▼▼ UIボタンなどから呼ばれるチャット送信 ▼▼▼
+    // UIボタンなどから呼ばれるチャット送信
     public void SendChat()
     {
         if (isProcessing || string.IsNullOrEmpty(inputField.text)) return;
 
-        // ★追加: 計測開始
+        //  計測開始
         latencyStopwatch.Restart();
 
         OnChatStarted?.Invoke();
@@ -288,19 +283,19 @@ public class UnityAndGeminiV3 : MonoBehaviour
         StartCoroutine(SendChatRequestToGemini(userMessage));
     }
 
-    // ▼▼▼ 身体接触イベントなどから呼ばれるシステムメッセージ送信 ▼▼▼
+    // 身体接触イベントなどから呼ばれるシステムメッセージ送信 
     public void SendSystemMessage(string message)
     {
         if (isProcessing) return;
 
-        // ★追加: 計測開始
+        //  計測開始
         latencyStopwatch.Restart();
 
         // ト書きとして送信
         StartCoroutine(SendChatRequestToGemini(message));
     }
 
-    // ▼▼▼ メインの通信処理コルーチン ▼▼▼
+    // メインの通信処理コルーチン 
     private IEnumerator SendChatRequestToGemini(string newMessage)
     {
         isProcessing = true;
@@ -357,7 +352,7 @@ public class UnityAndGeminiV3 : MonoBehaviour
         string jsonData = JsonUtility.ToJson(chatRequest);
         byte[] jsonToSend = new System.Text.UTF8Encoding().GetBytes(jsonData);
 
-        // ★追加: リクエスト開始時間を記録
+        // リクエスト開始時間を記録
         long requestStart = latencyStopwatch.ElapsedMilliseconds;
 
         // 6. 通信処理
@@ -369,7 +364,7 @@ public class UnityAndGeminiV3 : MonoBehaviour
 
             yield return www.SendWebRequest();
 
-            // ★追加: 推論完了時間を記録
+            // 推論完了時間を記録
             timeToInference = latencyStopwatch.ElapsedMilliseconds;
             Debug.Log($"[TimeLog] Inference Time: {timeToInference - requestStart} ms");
 
@@ -414,7 +409,7 @@ public class UnityAndGeminiV3 : MonoBehaviour
 
                         if (objectSpawner != null) objectSpawner.SpawnObject(emotionData.spawnObject);
 
-                        // ★変更: 音声合成時間の計測とログ出力
+                        // 音声合成時間の計測とログ出力
                         if (voicevoxBridge != null)
                         {
                             if (!string.IsNullOrEmpty(reply))
@@ -463,7 +458,7 @@ public class UnityAndGeminiV3 : MonoBehaviour
         }
     }
 
-    // ▼▼▼ セーブ＆ロード機能 ▼▼▼
+    // セーブ＆ロード機能
 
     public void SaveHistory()
     {
@@ -529,7 +524,7 @@ public class UnityAndGeminiV3 : MonoBehaviour
             Debug.Log("[System] 会話履歴ファイルを削除しました。");
         }
     }
-    // ▼▼▼ 入力モード切替ボタンから呼ぶメソッド ▼▼▼
+    // 入力モード切替ボタンから呼ぶメソッド
     public void ToggleInputMode()
     {
         SwitchInputMode(!isVoiceMode);
@@ -545,12 +540,12 @@ public class UnityAndGeminiV3 : MonoBehaviour
         if (voiceStatusText != null) voiceStatusText.text = isVoiceMode ? "マイクボタンを押して話す" : "";
     }
 
-    // ▼▼▼ 音声認識結果を受け取った時の処理 ▼▼▼
+    // 音声認識結果を受け取った時の処理
     private void HandleSpeechInput(string recognizedText)
     {
         if (string.IsNullOrEmpty(recognizedText)) return;
 
-        // ★追加: 計測開始
+        // 計測開始
         latencyStopwatch.Restart();
         Debug.Log($"[TimeLog] Start Speech: {recognizedText}");
 
@@ -567,7 +562,7 @@ public class UnityAndGeminiV3 : MonoBehaviour
         if (voiceStatusText != null) voiceStatusText.text = hypothesisText + "...";
     }
 
-    // ▼▼▼ マイクボタンから呼ぶメソッド ▼▼▼
+    // マイクボタンから呼ぶメソッド
     public void OnMicrophoneButtonClicked()
     {
         if (speechToTextManager != null)
@@ -576,7 +571,7 @@ public class UnityAndGeminiV3 : MonoBehaviour
         }
     }
 
-    // ▼▼▼ 追加: 会話リセット機能 ▼▼▼
+    // 会話リセット機能 
     public void ResetConversation()
     {
         // 1. 内部メモリの履歴を消去

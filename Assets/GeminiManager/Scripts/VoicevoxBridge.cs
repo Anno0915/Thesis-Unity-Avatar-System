@@ -35,10 +35,8 @@ public class VoicevoxBridge : MonoBehaviour
 
     private IEnumerator GenerateAndPlayVoice(string text)
     {
-        // ==================================================================================
         // 1. 音声合成用クエリの作成 (Audio Query)
         // テキストを渡して、イントネーションやアクセントのパラメータ(JSON)を取得します
-        // ==================================================================================
 
         // URLエンコードを行って安全にパラメータ化
         string queryUrl = $"{voicevoxUrl}/audio_query?speaker={speakerId}&text={UnityWebRequest.EscapeURL(text)}";
@@ -57,10 +55,8 @@ public class VoicevoxBridge : MonoBehaviour
             queryJson = www.downloadHandler.text;
         }
 
-        // ==================================================================================
         // 2. 音声データの合成 (Synthesis)
         // 取得したクエリJSONをそのまま送り返して、WAV音声データを取得します
-        // ==================================================================================
 
         string synthesisUrl = $"{voicevoxUrl}/synthesis?speaker={speakerId}";
 
@@ -84,9 +80,7 @@ public class VoicevoxBridge : MonoBehaviour
                 yield break;
             }
 
-            // ==================================================================================
             // 3. 再生
-            // ==================================================================================
             AudioClip clip = DownloadHandlerAudioClip.GetContent(www);
 
             // クリップをセットして再生

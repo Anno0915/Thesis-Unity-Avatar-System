@@ -26,8 +26,7 @@ public class IdleAnimationRandomizer : MonoBehaviour
     private static readonly int IdleIndexHash = Animator.StringToHash("IdleIndex");
     private static readonly int IsChattingHash = Animator.StringToHash("IsChatting");
 
-    // ▼▼▼ 改善点：シャッフルバッグ方式用のキュー ▼▼▼
-    // これにより「全てのモーションを一通り再生するまで重複しない」挙動を実現します
+    // これにより「全てのモーションを一通り再生するまで重複しない」挙動を実現
     private Queue<int> animationQueue = new Queue<int>();
 
     void OnEnable()
@@ -59,7 +58,7 @@ public class IdleAnimationRandomizer : MonoBehaviour
         HandleChatFinished();
     }
 
-    // ▼▼▼ 新機能：モーションの補充とシャッフル ▼▼▼
+    // モーションの補充とシャッフル
     private void RefillQueue()
     {
         animationQueue.Clear();
@@ -115,7 +114,6 @@ public class IdleAnimationRandomizer : MonoBehaviour
     }
 
     // アニメーション終了時（または待機時間終了時）に呼ばれるメソッド
-    // ※UnityのAnimation Eventから呼ぶことも想定しています
     public void AnimationFinished()
     {
         // 会話中なら何もしない
@@ -140,7 +138,7 @@ public class IdleAnimationRandomizer : MonoBehaviour
         // 会話が始まっていたら中断
         if (animator.GetBool(IsChattingHash)) yield break;
 
-        // ▼▼▼ 改善点：キューから次のモーションを取り出す ▼▼▼
+        // キューから次のモーションを取り出す 
         if (animationQueue.Count == 0)
         {
             RefillQueue();
@@ -153,8 +151,7 @@ public class IdleAnimationRandomizer : MonoBehaviour
         {
             // モーション再生
             animator.SetInteger(IdleIndexHash, nextIdleIndex);
-            // ※再生後は、Animator側のState Machine BehaviourやAnimation Eventで
-            //   AnimationFinished() が呼ばれるか、あるいは自動でIdleに戻る構成を想定
+
         }
         else
         {

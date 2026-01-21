@@ -1985,8 +1985,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 228a6faa27a2b804595eb85bc10e01db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  apiKey: 4e0eeec432a1c011a529f2e3ddf3aa76
-  city: tokyp,jp
+  apiKey: 
+  city: Osaka,jp
   updateInterval: 600
 --- !u!4 &646254902
 Transform:

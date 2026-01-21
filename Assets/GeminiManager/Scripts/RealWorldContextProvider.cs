@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.Networking;
 using System;
 
-// ▼▼▼ OpenWeatherMap用 JSONデータ構造 ▼▼▼
+//  OpenWeatherMap用 JSONデータ構造 
 [Serializable]
 public class WeatherInfo
 {
@@ -25,7 +25,6 @@ public class Main
     public float temp;         // 気温 (ケルビン単位の場合あり、設定による)
     public float humidity;     // 湿度
 }
-// ▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲
 
 public class RealWorldContextProvider : MonoBehaviour
 {
@@ -50,7 +49,7 @@ public class RealWorldContextProvider : MonoBehaviour
         weatherCoroutine = StartCoroutine(UpdateWeatherRoutine());
     }
 
-    // ▼▼▼ 追加: 外部から地域を変更するメソッド ▼▼▼
+    // 外部から地域を変更するメソッド 
     /// <summary>
     /// 地域を変更して、即座に天気を更新する
     /// </summary>

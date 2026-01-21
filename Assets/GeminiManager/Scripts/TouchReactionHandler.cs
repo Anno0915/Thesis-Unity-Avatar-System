@@ -35,6 +35,11 @@ public class TouchReactionHandler : MonoBehaviour
                 messageToSend = "(ユーザーがあなたの腕に触れました)";
                 break;
 
+            case BodyPartTag.PartType.Leg:
+                Debug.Log("足が触られました");
+                messageToSend = "(ユーザーがあなたの足に触れました)";
+                break;
+
             case BodyPartTag.PartType.Hand:
                 Debug.Log("手が触られました");
                 messageToSend = "(ユーザーがあなたの手を握りました)";
@@ -45,12 +50,16 @@ public class TouchReactionHandler : MonoBehaviour
                 messageToSend = "(ユーザーがあなたの胸に触れました)";
                 break;
 
+
             case BodyPartTag.PartType.Buttocks:
                 Debug.Log("尻が触られました");
                 messageToSend = "(ユーザーがあなたの尻に触れました)";
                 break;
 
             
+
+
+
 
             default:
                 return;

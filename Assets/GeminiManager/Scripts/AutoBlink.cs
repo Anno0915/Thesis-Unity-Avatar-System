@@ -175,7 +175,7 @@ public class AutoBlink : MonoBehaviour
         eyelidAnimator = new EyelidAnimator(ref_SMR_EYE_DEF, ref_SMR_EL_DEF, blendShapeIndex);
 
         // ランダム判定用コルーチン開始
-        // 【修正】文字列指定("RandomChange")ではなく、メソッド呼び出しに変更（安全性向上）
+        // 文字列指定("RandomChange")ではなく、メソッド呼び出しに変更（安全性向上）
         StartCoroutine(RandomChange());
     }
 

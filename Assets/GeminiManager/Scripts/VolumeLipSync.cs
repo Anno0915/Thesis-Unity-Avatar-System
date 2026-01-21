@@ -82,7 +82,7 @@ public class VolumeLipSync : MonoBehaviour
         // 適用
         faceMesh.SetBlendShapeWeight(blendShapeIndex, currentMouthOpen);
 
-        // ▼▼▼ 検証用ロジック ▼▼▼
+        // 検証用ロジック 
         if (analyzeAccuracy)
         {
             // 再生中ならデータを記録
